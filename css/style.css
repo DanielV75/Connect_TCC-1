@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+   font-size: 1.5em;
+   color: #333;  
+}
+
+p{
+    font-size: 1em;
+    color: #777;
+}
+
+/* CABEÇALHO */
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 30px 8%;
+    background-color: #313131;
+}
+
+.logo a{
+    width: 85px;
+    height: 85px;
+    float: left;
+    background: url(../img/logo1.png) no-repeat;
+    font-size: 0;
+}
+
+/* MENU */
+.menu{
+    width: 100%;
+    float: left;
+    background-color: #FAD724;
+    padding: 18px 8%;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    color: #313131;
+    margin-right:25px ; 
+}
+
+.menu li a:hover{
+    color: #9D9D9D;
+}
+
+/*ICONS*/
+.social-icons{
+    float: right;
+}
+
+.social-icons a{
+    color: #313131;
+    float: left;
+    margin-left: 12px;
+}
+
+.btn-facebook:hover{
+    color: #9D9D9D;
+}
+
+.btn-instagram:hover{
+    color: #9D9D9D; 
+}
+
+/* SLIDER */
+#slider {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
+.text-muted{
+    text-align: center;
+    font-size: 25px;
+}
+
+section{
+    margin-left: 24%;
+    margin-right: 24%;
+    top: 0;
+    max-width: 1000px;
+}
+
+section .onde-estamos{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* QUEM SOMOS */
+.sobre h2{
+   text-align: center;
+   font-size: 25px;
+}
+
+.sobre p{
+    text-align: center;
+    padding: 30px 100px 100px 30px;
+}
+
+/* FOOTER */
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #313131;
+    padding: 20px 8%;
+}
+
+/* ONDE ESTAMOS */
+.onde-estamos h2{
+    text-align: center;
+}
+
+
